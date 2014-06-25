@@ -3,6 +3,10 @@ SilikonUni
 
 Sarcastic softuni mirror; Teamwork project assignation by Software University Ltd
 
+Update: Layout-ите на страниците са с flexbox предимно. Като се видим на живо ще ви разкажа колко е лесно
+Като правя responsive-a предлагам да е за над 960px, 640px-960px и 360px-640px
+Заложила съм да работим с rem - в body-то е зададена основна големина 10px и оттам нататък - rem
+
 Структура на сайта:
 * Заглавна страница
 * Новини
