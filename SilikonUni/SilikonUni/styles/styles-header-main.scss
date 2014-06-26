@@ -1,0 +1,162 @@
+﻿body, header, img, nav, section, article, div, aside, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+$mainColor: lightpink;
+$hoverColor: red;
+$textColor: black;
+
+body {
+    font-family: Tahoma;
+    font-size: 10px;
+    background-color: $mainColor;
+    color: $textColor;
+
+    #wrapper {
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        header {
+            order: 1;
+            width: 100%;
+            border: 1px solid red;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            justify-content: space-between;
+
+            img {
+                order: 1;
+                height: 100px;
+            }
+
+            audio {
+                order: 2;
+                align-self: flex-end;
+            }
+
+            nav {
+                order: 3;
+                width: 100%;
+                font-size: 1.2rem;
+                display: flex;
+                -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                justify-content: flex-end;
+
+                ul {
+                    list-style-type: none;
+
+                    li {
+                        display: inline-block;
+                        margin-left: 1.3rem;
+
+                        ul a {
+                            font-size: 1.1rem;
+                        }
+
+                        a {
+                            text-decoration: none;
+                            padding: 0.5rem;
+                        }
+
+                        &:hover > a {
+                            text-decoration: none;
+                            background-color: #4ca0db;
+                            border-radius: 0.3rem;
+
+                            + ul {
+                                display: block;
+                            }
+                        }
+
+                        ul li {
+                            float: none;
+                            margin: 0;
+                            padding-top: 1rem;
+                            padding-bottom: 0.5rem;
+                            border-bottom: 1px solid #435f7b;
+                            display: block;
+
+                            &:last-child {
+                                border-bottom: none;
+                            }
+
+                            a {
+                                margin-left: 1rem;
+                                font-weight: normal;
+
+                                &.sub-menu {
+                                    font-weight: bold;
+                                    color: #43a0db;
+                                    font-size: 18px;
+                                }
+                            }
+
+                            &:hover a.sub-menu {
+                                color: white;
+                            }
+
+                            &:hover > a {
+                                text-decoration: none;
+                                background: none;
+                            }
+                        }
+
+                        ul.sub-nav-list {
+                            position: absolute;
+                            margin-top: 0.5rem;
+                            display: none;
+                            background-color: #1d3955;
+                            width: 320px;
+                            border-bottom-left-radius: 0.3rem;
+                            border-bottom-right-radius: 0.3rem;
+                            text-align: left;
+
+                            li:hover {
+                                background: #ff9c00;
+                                cursor: pointer;
+                            }
+
+                            li:last-child:hover {
+                                border-bottom-left-radius: 0.3rem;
+                                border-bottom-right-radius: 0.3rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        section {
+            order: 2;
+        }
+
+        aside {
+            order: 3;
+        }
+
+        footer {
+            order: 4;
+            width: 100%;
+            border: 1px solid red;
+            font-size: 1.2rem;
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            justify-content: center;
+
+            div {
+                width: 25%;
+                border: 1px solid red;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

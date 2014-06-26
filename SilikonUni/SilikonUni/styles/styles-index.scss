@@ -1,0 +1,30 @@
+﻿#wrapper section {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+
+    article {
+        overflow: hidden;
+
+        &:first-child img {
+            height: 300px;
+        }
+    }
+}
+
+#wrapper aside {
+    width: 100%;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    article {
+        width: 32%;
+        border: 1px solid red;
+        font-size: 1.2rem;
+    }
+}
