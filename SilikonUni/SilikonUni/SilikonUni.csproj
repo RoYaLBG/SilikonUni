@@ -66,6 +66,8 @@
     <Content Include="images\SilikonUniLogoWhite.png" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />
+    <Content Include="Partners.html" />
+    <Content Include="styles\styles-partners.css" />
     <Content Include="styles\styles-main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
