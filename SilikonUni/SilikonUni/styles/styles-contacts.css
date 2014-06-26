@@ -1,0 +1,11 @@
+#map_canvas {
+            width: 350px;
+            height: 350px;
+            border-radius: 5px;
+            margin: 15px;
+        }
+address {
+    font-size: 25pt;
+    margin: 15px;
+    float: left;
+}
