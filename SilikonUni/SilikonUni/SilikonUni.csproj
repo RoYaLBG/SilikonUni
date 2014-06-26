@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="applying.html" />
     <Content Include="images\chalga01.jpg" />
     <Content Include="images\chalga02.jpg" />
     <Content Include="images\chalga03.jpg" />
@@ -66,13 +67,18 @@
     <Content Include="images\SilikonUniLogoWhite.png" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />
-    <Content Include="Partners.html" />
+    <Content Include="news.html" />
+    <Content Include="partners.html" />
     <Content Include="styles\styles-header-main.css">
       <DependentUpon>styles-header-main.scss</DependentUpon>
     </Content>
     <Content Include="styles\styles-index.css">
       <DependentUpon>styles-index.scss</DependentUpon>
     </Content>
+    <Content Include="styles\styles-partners-news-trainings.css">
+      <DependentUpon>styles-partners-news-trainings.scss</DependentUpon>
+    </Content>
+    <Content Include="trainings.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +92,10 @@
     <Content Include="styles\styles-index.scss" />
     <Content Include="styles\styles-index.css.map">
       <DependentUpon>styles-index.css</DependentUpon>
+    </Content>
+    <Content Include="styles\styles-partners-news-trainings.scss" />
+    <Content Include="styles\styles-partners-news-trainings.css.map">
+      <DependentUpon>styles-partners-news-trainings.css</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

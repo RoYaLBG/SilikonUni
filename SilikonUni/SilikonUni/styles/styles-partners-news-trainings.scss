@@ -1,0 +1,34 @@
+﻿#wrapper section {
+    width: 100%;
+    height:100%;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    &.oneColumnSection article {
+        width:100%;
+        height:100%;
+        order:2;
+        border: 1px solid red;
+        background-color:orange;
+    }
+
+    &.threeColumnsSection article {
+        width:33%;
+        height:100%;
+        order:3;
+        border: 1px solid red;
+        background-color:yellow;
+    }
+
+    &.rowsSection article {
+        width:100%;
+        height:100%;
+        order:3;
+        border: 1px solid red;
+        background-color:yellow;
+    }
+}
