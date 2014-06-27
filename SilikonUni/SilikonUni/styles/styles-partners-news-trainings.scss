@@ -3,10 +3,15 @@
     height:100%;
     border: 1px solid red;
     font-size: 1.2rem;
+    padding: 1rem 2.5rem;
     display: flex;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     justify-content: space-between;
+
+    article {
+        padding: 1rem 2.5rem;
+    }
 
     &.oneColumnSection article {
         width:100%;
