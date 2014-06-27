@@ -1,4 +1,4 @@
-﻿body, header, img, nav, section, article, div, aside, p {
+﻿body, header, img, nav, section, article, div, aside, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,13 +6,15 @@
     -webkit-box-sizing: border-box;
 }
 
-$mainColor: lightpink;
-$hoverColor: red;
-$textColor: black;
+$hoverColor: #008000;
+$mainColor: purple;
+$textColor: white;
 
+
+/*MAIN*/
 body {
     font-family: Tahoma;
-    font-size: 10px;
+    font-size: 1rem;
     background-color: $mainColor;
     color: $textColor;
 
@@ -26,6 +28,8 @@ body {
             order: 1;
             width: 100%;
             margin-bottom: 1rem;
+            padding: 1rem 2.5rem;
+            color:$textColor;
             display: flex;
             -ms-flex-flow: row wrap;
             flex-flow: row wrap;
@@ -34,17 +38,20 @@ body {
             img {
                 order: 1;
                 height: 100px;
+                margin-bottom:0;
             }
 
             audio {
                 order: 2;
                 align-self: flex-end;
+                margin-bottom:0;
             }
 
             nav {
                 order: 3;
-                width: 100%;
                 font-size: 1.2rem;
+                align-self:flex-end;
+                margin-bottom:0.5rem;
                 display: flex;
                 -ms-flex-flow: row wrap;
                 flex-flow: row wrap;
@@ -57,18 +64,20 @@ body {
                         display: inline-block;
                         margin-left: 1.3rem;
 
-                        ul a {
-                            font-size: 1.1rem;
-                        }
-
                         a {
                             text-decoration: none;
                             padding: 0.5rem;
+                            color:$textColor;
+                        }
+
+                        ul a {
+                            font-size: 0.9rem;
+                            padding: 0;
                         }
 
                         &:hover > a {
                             text-decoration: none;
-                            background-color: #4ca0db;
+                            background-color: $hoverColor;
                             border-radius: 0.3rem;
 
                             + ul {
@@ -79,9 +88,9 @@ body {
                         ul li {
                             float: none;
                             margin: 0;
-                            padding-top: 1rem;
+                            padding-top: 0.5rem;
                             padding-bottom: 0.5rem;
-                            border-bottom: 1px solid #435f7b;
+                            border-bottom: 1px solid $mainColor;
                             display: block;
 
                             &:last-child {
@@ -94,8 +103,7 @@ body {
 
                                 &.sub-menu {
                                     font-weight: bold;
-                                    color: #43a0db;
-                                    font-size: 18px;
+                                    color: $hoverColor;
                                 }
                             }
 
@@ -113,14 +121,14 @@ body {
                             position: absolute;
                             margin-top: 0.5rem;
                             display: none;
-                            background-color: #1d3955;
-                            width: 320px;
+                            background-color: $hoverColor;
+                            width: 15rem;
                             border-bottom-left-radius: 0.3rem;
                             border-bottom-right-radius: 0.3rem;
                             text-align: left;
 
                             li:hover {
-                                background: #ff9c00;
+                                background: $mainColor;
                                 cursor: pointer;
                             }
 
@@ -164,5 +172,48 @@ body {
                 font-size: 1.2rem;
             }
         }
+    }
+}
+
+
+
+
+/*SECTIONS*/
+
+#wrapper section {
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    font-size: 1.2rem;
+
+    article {
+        overflow: hidden;
+        background-color:$hoverColor;
+
+        &:first-child img {
+            height: 300px;
+        }
+    }
+}
+
+
+/*ASIDES*/
+#wrapper aside {
+    width: 100%;
+    border: 1px solid red;
+    font-size: 1.2rem;
+    padding: 1rem 2.5rem;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    article {
+        width: 32%;
+        border: 1px solid red;
+        font-size: 1.2rem;
+        padding: 1rem 2.5rem;
+        background-color:$hoverColor;
+        overflow: hidden;
     }
 }
