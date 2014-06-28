@@ -119,7 +119,9 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>1295</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:1295/</IISUrl>
+          <IISUrl>http://localhost:59270/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:59270/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
