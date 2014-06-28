@@ -63,20 +63,14 @@
     <Content Include="images\chalga03.jpg" />
     <Content Include="images\chalga04.jpg" />
     <Content Include="images\chalga05.jpg" />
+    <Content Include="images\SilikonUniLogoBlack.png" />
     <Content Include="images\SilikonUniLogo.png" />
-    <Content Include="images\SilikonUniLogoWhite.png" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />
     <Content Include="news.html" />
     <Content Include="partners.html" />
-    <Content Include="styles\styles-header-main.css">
-      <DependentUpon>styles-header-main.scss</DependentUpon>
-    </Content>
-    <Content Include="styles\styles-index.css">
-      <DependentUpon>styles-index.scss</DependentUpon>
-    </Content>
-    <Content Include="styles\styles-partners-news-trainings.css">
-      <DependentUpon>styles-partners-news-trainings.scss</DependentUpon>
+    <Content Include="styles\styles.css">
+      <DependentUpon>styles.scss</DependentUpon>
     </Content>
     <Content Include="trainings.html" />
     <Content Include="Web.config" />
@@ -85,17 +79,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="styles\styles-header-main.scss" />
-    <Content Include="styles\styles-header-main.css.map">
-      <DependentUpon>styles-header-main.css</DependentUpon>
-    </Content>
-    <Content Include="styles\styles-index.scss" />
-    <Content Include="styles\styles-index.css.map">
-      <DependentUpon>styles-index.css</DependentUpon>
-    </Content>
-    <Content Include="styles\styles-partners-news-trainings.scss" />
-    <Content Include="styles\styles-partners-news-trainings.css.map">
-      <DependentUpon>styles-partners-news-trainings.css</DependentUpon>
+    <Content Include="styles\styles.scss" />
+    <Content Include="styles\styles.css.map">
+      <DependentUpon>styles.css</DependentUpon>
     </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
