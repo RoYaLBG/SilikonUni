@@ -69,12 +69,16 @@
     <Content Include="images\chalga03.jpg" />
     <Content Include="images\chalga04.jpg" />
     <Content Include="images\chalga05.jpg" />
+    <Content Include="images\nakov.jpg" />
     <Content Include="images\paynerBack.jpg" />
     <Content Include="images\paynerFront.jpg" />
     <Content Include="images\sashkaBack.jpg" />
     <Content Include="images\sashkaFront.jpg" />
     <Content Include="images\SilikonUniLogo.png" />
+    <Content Include="images\tedi.jpg" />
     <Content Include="images\tits.gif" />
+    <Content Include="images\vlado1.jpg" />
+    <Content Include="images\vlado2.jpg" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />
     <Content Include="news.html" />
@@ -83,6 +87,7 @@
     <Content Include="styles\styles.css">
       <DependentUpon>styles.scss</DependentUpon>
     </Content>
+    <Content Include="trainers.html" />
     <Content Include="trainings.html" />
     <Content Include="Web.config" />
   </ItemGroup>

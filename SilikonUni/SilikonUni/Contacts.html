@@ -8,14 +8,20 @@
         function initialize() {
             var map_canvas = document.getElementById('map_canvas');
             var map_options = {
-                center: new google.maps.LatLng(42.054598, 25.594458), 
-                zoom: 12,
+                center: new google.maps.LatLng(42.054598, 25.594458),
+                zoom: 14,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             }
             var map = new google.maps.Map(map_canvas, map_options)
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+    <style>
+        #map_canvas {
+            width: 50%;
+            height: 300px;
+        }
+    </style>
 </head>
 <body>
     <div id="wrapper">
@@ -74,16 +80,14 @@
             </nav>
         </header>
         <section>
-            <div id="map_canvas"></div>
-        </section>
-        <section>
+            <div id="map_canvas"></div> 
             <address>
                 <p>адрес: Димитровград,</p>
                 <p>п.к.6400 бул."ЧАЛГА СТРИЙТ" №16</p>
                 <p>e-mail: gb.renyap@eciffo  </p>
                 <p>тел. 0391 60311 тел. </p>
-                <p>  0391 60310 факс: 0391 60330 </p>             
-            </address>         
+                <p>  0391 60310 факс: 0391 60330 </p>
+            </address>
         </section>
         <footer>
             <section>
