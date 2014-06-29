@@ -4,9 +4,18 @@ W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\Siliko
 W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
 W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
 W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
+<<<<<<< HEAD
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork02\SilikonUni\SilikonUni\bin\SilikonUni.dll.config
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork02\SilikonUni\SilikonUni\bin\SilikonUni.dll
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork02\SilikonUni\SilikonUni\bin\SilikonUni.pdb
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork02\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork02\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork02\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
+=======
 C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\bin\SilikonUni.dll.config
 C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\bin\SilikonUni.dll
 C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\bin\SilikonUni.pdb
 C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
 C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
 C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
+>>>>>>> origin/master
