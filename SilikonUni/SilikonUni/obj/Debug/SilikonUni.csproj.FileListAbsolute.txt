@@ -1,0 +1,6 @@
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\bin\SilikonUni.dll.config
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\bin\SilikonUni.dll
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\bin\SilikonUni.pdb
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-Web-Fundamentals\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
