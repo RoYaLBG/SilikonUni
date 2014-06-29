@@ -4,3 +4,9 @@ G:\SoftUni\1_WebFundamentals(HTML&CSS)\HTML-CSS-Teamwork\SilikonUni\trunk\Siliko
 G:\SoftUni\1_WebFundamentals(HTML&CSS)\HTML-CSS-Teamwork\SilikonUni\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
 G:\SoftUni\1_WebFundamentals(HTML&CSS)\HTML-CSS-Teamwork\SilikonUni\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
 G:\SoftUni\1_WebFundamentals(HTML&CSS)\HTML-CSS-Teamwork\SilikonUni\trunk\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\bin\SilikonUni.dll.config
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\bin\SilikonUni.dll
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\bin\SilikonUni.pdb
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
+W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
