@@ -57,13 +57,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="aboutus.html" />
     <Content Include="applying.html" />
+    <Content Include="contacts.html" />
+    <Content Include="images\azis.gif" />
+    <Content Include="images\azis2.gif" />
     <Content Include="images\chalga01.jpg" />
     <Content Include="images\chalga02.jpg" />
     <Content Include="images\chalga03.jpg" />
     <Content Include="images\chalga04.jpg" />
     <Content Include="images\chalga05.jpg" />
-    <Content Include="images\SilikonUniLogoBlack.png" />
     <Content Include="images\SilikonUniLogo.png" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />

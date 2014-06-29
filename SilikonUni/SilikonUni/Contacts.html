@@ -2,8 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Contacts</title>
-    <link href="styles/styles-header-main.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="styles/contacts.css">
+    <link href="styles/styles.css" rel="stylesheet" />
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
         function initialize() {
@@ -21,7 +20,7 @@
 <body>
     <div id="wrapper">
         <header>
-            <img src="/images/SilikonUniLogo.png" alt="logo" />
+            <a href="index.html"><img src="/images/SilikonUniLogo.png" alt="logo" /></a>
             <audio controls>
                 <source src="/media/Doko-Doko.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -29,63 +28,53 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#" title="news">Новини</a>
-                        <ul class="sub-nav-list">
-                            <li>
-                                <a href="#" title="news01">Новина 01</a>
-                            </li>
-                            <li>
-                                <a href="#" title="news02">Новина 02</a>
-                            </li>
-                            <li>
-                                <a href="#" title="news03">Новина 03</a>
-                            </li>
-                        </ul>
+                        <a href="news.html" title="news">Новини</a>
                     </li>
                     <li>
                         <a href="#" title="About the university">За Университета</a>
                         <ul class="sub-nav-list">
                             <li>
-                                <a href="#" title="about us">За нас</a>
+                                <a href="aboutus.html" title="about us">За нас</a>
                             </li>
                             <li>
-                                <a href="Partners.html" title="professions">Професии</a>
+                                <a href="professions.html" title="professions">Професии</a>
                             </li>
                             <li>
-                                <a href="#" title="partners">Партньори</a>
+                                <a href="partners.html" title="partners">Партньори</a>
                             </li> <!--SinCity etc , д-р мЕнчев и т.н.-->
                             <li>
                                 <a href="#" title="trainers">Преподаватели</a>
                             </li>
                             <li>
-                                <a href="#" title="applying">Кандидатстване</a>
+                                <a href="applying.html" title="applying">Кандидатстване</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="#" title="news03">Новина 03</a>
+                        <a href="trainings.html" title="trainings">Обучения</a>
                         <ul class="sub-nav-list">
                             <li>
-                                <a href="#" title="news03">Чалга примадона</a>
+                                <a href="trainings.html#chalga" title="chalga">Чалга примадона</a>
                             </li>
                             <li>
-                                <a href="#" title="news03">Хит певец на гръцки песни</a>
+                                <a href="trainings.html#greek" title="greek">Хит певец на гръцки песни</a>
                             </li>
                             <li>
-                                <a href="#" title="news03">Ново! За травестити....</a>
+                                <a href="trainings.html#travestite" title="travestite">Как да стана известен травестит</a>
                             </li>
                             <li>
-                                <a class="sub-menu" href="#" title="news03">Fats Track курсове</a>
+                                <a class="trainings.html#fastTrack" href="#" title="fast tracks">Fats Track курсове</a>
                             </li>
                             <li>
-                                <a href="#" title="news03">Стани звезда за три седмици</a>
+                                <a href="trainings.html#threeWeeks" title="three weeks">Стани звезда за три седмици</a>
                             </li>
                         </ul>
                     </li>
-                    <li>Контакти</li>
+                    <li>
+                        <a href="contacts.html" title="contacts">Контакти</a>
+                    </li>
                 </ul>
             </nav>
-            
         </header>
         <section>
             <div id="map_canvas"></div>
