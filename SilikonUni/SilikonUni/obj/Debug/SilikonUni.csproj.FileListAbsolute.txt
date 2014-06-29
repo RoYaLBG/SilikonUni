@@ -10,3 +10,9 @@ W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\bin\SilikonUni.
 W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
 W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
 W:\_SoftUni\GitHub\SoftUniRepo\Teamwork-01\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
+C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\bin\SilikonUni.dll.config
+C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\bin\SilikonUni.dll
+C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\bin\SilikonUni.pdb
+C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\obj\Debug\SilikonUni.csprojResolveAssemblyReference.cache
+C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\obj\Debug\SilikonUni.dll
+C:\Users\Ivo\Desktop\Teamwork-SilikonUni\SilikonUni\SilikonUni\obj\Debug\SilikonUni.pdb
