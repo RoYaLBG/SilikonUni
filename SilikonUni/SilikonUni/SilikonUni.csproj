@@ -62,17 +62,24 @@
     <Content Include="contacts.html" />
     <Content Include="images\azis.gif" />
     <Content Include="images\azis2.gif" />
+    <Content Include="images\azisBack.jpg" />
+    <Content Include="images\azisFront.jpg" />
     <Content Include="images\chalga01.jpg" />
     <Content Include="images\chalga02.jpg" />
     <Content Include="images\chalga03.jpg" />
     <Content Include="images\chalga04.jpg" />
     <Content Include="images\chalga05.jpg" />
+    <Content Include="images\paynerBack.jpg" />
+    <Content Include="images\paynerFront.jpg" />
+    <Content Include="images\sashkaBack.jpg" />
+    <Content Include="images\sashkaFront.jpg" />
     <Content Include="images\SilikonUniLogo.png" />
     <Content Include="images\tits.gif" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />
     <Content Include="news.html" />
     <Content Include="partners.html" />
+    <Content Include="styles\news.css" />
     <Content Include="styles\styles.css">
       <DependentUpon>styles.scss</DependentUpon>
     </Content>
