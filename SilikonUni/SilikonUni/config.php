@@ -1,6 +1,7 @@
 <?php
 $config['ivan'] = array(
-    'root' => "D:\\web\\www\\softuni\\SilikonUni\\SilikonUni\\"
+    'root' => '/home/royal/vhosts/silikonuni/',
+	'host' => 'http://silikonuni.local/'
 );
 
 $config['yana'] = array(
