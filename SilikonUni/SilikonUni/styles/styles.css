@@ -1,4 +1,4 @@
-﻿body, header, img, nav, section, article, div, aside, p, ul, li, h1, h2 {
+﻿body, header, img, nav, section, article, div, aside, p, ul, li, h1, h2, form, fieldset, input, textarea {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -268,6 +268,49 @@ body {
     width: 100%;
     height: 100%;
     order: 2; }
+    #wrapper section.oneColumnSection article form {
+      display: flex;
+      -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      #wrapper section.oneColumnSection article form fieldset {
+        border: 2px solid #ed78ff;
+        border-radius: 1rem;
+        padding: 0.5rem;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        justify-content: space-between; }
+        #wrapper section.oneColumnSection article form fieldset legend {
+          font-size: 1.3rem;
+          text-align: center;
+          padding: 0 0.5rem; }
+        #wrapper section.oneColumnSection article form fieldset:last-child {
+          width: 30%;
+          margin-right: 0; }
+        #wrapper section.oneColumnSection article form fieldset:nth-child(1) {
+          width: 69%;
+          margin-right: 1%; }
+        #wrapper section.oneColumnSection article form fieldset input[type=tel], #wrapper section.oneColumnSection article form fieldset input[type=text], #wrapper section.oneColumnSection article form fieldset input[type=datetime-local], #wrapper section.oneColumnSection article form fieldset input[type=button], #wrapper section.oneColumnSection article form fieldset select {
+          width: 100%;
+          height: 2.5rem;
+          margin-bottom: 0.5rem;
+          padding: 0.5rem 1rem;
+          font-size: 1rem; }
+        #wrapper section.oneColumnSection article form fieldset label {
+          margin-right: 1.3rem;
+          vertical-align: bottom; }
+        #wrapper section.oneColumnSection article form fieldset textarea {
+          width: 100%;
+          height: 5rem;
+          margin-bottom: 0.5rem;
+          padding: 0.5rem 1rem;
+          font-size: 1rem; }
+        #wrapper section.oneColumnSection article form fieldset input[type=submit] {
+          height: 5rem;
+          width: 100%;
+          font-size: 2rem;
+          margin-top: 5rem; }
     #wrapper section.oneColumnSection article div {
       display: flex;
       -ms-flex-flow: row wrap;
@@ -316,6 +359,8 @@ body {
       overflow: hidden;
       padding: 1.5rem 1.5rem;
       text-align: center; }
+      #wrapper section.indexSection article > header {
+        margin: 0; }
       #wrapper section.indexSection article header {
         display: flex;
         -ms-flex-flow: row wrap;
