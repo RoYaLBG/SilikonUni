@@ -60,35 +60,26 @@
     <Content Include="aboutus.html" />
     <Content Include="applying.html" />
     <Content Include="contacts.html" />
+    <Content Include="images\ajde.jpg" />
     <Content Include="images\azis.gif" />
     <Content Include="images\azis2.gif" />
-    <Content Include="images\azisBack.jpg" />
-    <Content Include="images\azisFront.jpg" />
-    <Content Include="images\chalga01.jpg" />
-    <Content Include="images\chalga02.jpg" />
-    <Content Include="images\chalga03.jpg" />
-    <Content Include="images\chalga04.jpg" />
-    <Content Include="images\chalga05.jpg" />
+    <Content Include="images\chalgaMix.jpg" />
     <Content Include="images\chalgaPrimadona.jpg" />
-    <Content Include="images\nakov.jpg" />
-    <Content Include="images\paynerBack.jpg" />
-    <Content Include="images\paynerFront.jpg" />
-    <Content Include="images\sashkaBack.jpg" />
-    <Content Include="images\sashkaFront.jpg" />
+    <Content Include="images\pioneer.gif" />
+    <Content Include="images\sashka.jpg" />
     <Content Include="images\SilikonUniLogo.png" />
-    <Content Include="images\tedi.jpg" />
     <Content Include="images\tits.gif" />
-    <Content Include="images\vlado1.jpg" />
-    <Content Include="images\vlado2.jpg" />
+    <Content Include="images\zazis.jpg" />
     <Content Include="index.html" />
     <Content Include="media\Doko-Doko.mp3" />
     <Content Include="news.html" />
     <Content Include="partners.html" />
-    <Content Include="styles\news.css" />
     <Content Include="styles\styles.css">
       <DependentUpon>styles.scss</DependentUpon>
     </Content>
-    <Content Include="trainers.html" />
+    <Content Include="styles\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
     <Content Include="trainings.html" />
     <Content Include="Web.config" />
   </ItemGroup>
