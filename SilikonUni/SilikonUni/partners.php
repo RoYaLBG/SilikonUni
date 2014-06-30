@@ -15,54 +15,31 @@
                 <header><h2>Пионер</h2></header>
                 <img src="images/Payner_logo.jpg" title="Pioner logo" alt="logo"/>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                    in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-                    vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-                    dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-                    doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis
-                    in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
-                    saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
-                    notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-                    per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant
-                    sollemnes in futurum.
+                    Пионерчетата са известен музикален бранд зародил се в зората на прехода. С характерен стил и
+                    униформи, пионерите на Пионера Радо 6и6арката, Девинския поп, Тони Грачева и орк. Кавали поставят
+                    едно ново начало в реформаторския музикален блок. За Силикон Уни е чест да има партньор като Пионер
+                    в сурови времена като днешните, утвърден с над четири петилетки на българския и световен пазар на тела.
                 </p>
             </article>
             <article>
                 <header><h2>Айде мюзик</h2></header>
                 <img src="images/AraMusic_logo.jpg" title="Pioner logo" alt="logo"/>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                    in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-                    vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-                    dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-                    doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis
-                    in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
-                    saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
-                    notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-                    per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant
-                    sollemnes in futurum.
+                    Айде мюзик, познати още като Арда мюзик или накратко Мелник е втората по известност компания за трафик
+                    на хора у нас. Създадена от Вико от Касъмчево преди повече от 15 години държи четири девети от пазарния дял
+                    в страната, което я прави един от най-ценните партньори на Силикон Уни. От екипа на Силикон Уни сме в
+                    особено приятелски отношения с Айде наш'те, особено с дамското съсловие. Договорите ни с тях поставят
+                    Силикон Уни на много горна позиция в сферата на услугите.
                 </p>
             </article>
             <article>
                 <header><h2>Диапзон рекорд</h2></header>
                 <img src="images/DiapazonRecord_logo.jpg" title="Pioner logo" alt="logo"/>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-                    laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-                    ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor
-                    in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at
-                    vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis
-                    dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet
-                    doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis
-                    in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt
-                    saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est
-                    notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis
-                    per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant
-                    sollemnes in futurum.
+                    Диапзон рекорд още познати като Диаметър рекорд (по-късно ще стане ясно диаметъра на кое) са за момента
+                    де факто стандартния партньор на Силикон Уни, с чиято помощ се организират курсовете за Травестити.
+                    Известни траверси (с най-широк диаметър на отверсието) излези от школата на Диапзон са имена като 
+                    Мензис, Диван (за жалост Фотьойл не се класира), Ериг, Мондьо и Тони Стругаро. Защо не ръкопляскате?
                 </p>
             </article>
         </section>
