@@ -212,6 +212,10 @@ class View {
 	public function getFooterPages() {
 		return $this->_footerPages;
 	}
+    
+    public function setCssUrl($url) {
+        $this->_css[] = $url;
+    }
 
 
 
