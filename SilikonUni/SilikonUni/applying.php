@@ -29,10 +29,27 @@
                                pattern="[a-zA-Z0-9_]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}">
                         <input type="tel" name="phone-number" placeholder="Телефон" class="non-important"
                                pattern="\+[0-9]{3}\-[0-9]{3}\-[0-9]{2}\-[0-9]{2}\-[0-9]{2}">
-                        <!--<input type="password" name="password" placeholder="Your Password" class="non-important">
-                        <input type="text" name="website" placeholder="Website" class="non-important">-->
                         <label for="birthday" class="label">Рожден ден</label>
-                        <input type="datetime-local" id="birthday" name="birthday">
+                        <div id="birthday">
+                            <input type="text" name="date" placeholder="Дата" />
+                            <input type="text" name="month" placeholder="Месец" />
+                            <select>
+                                <option selected="selected">Година</option>
+                                <option value="young">Не се в разплодна възраст</option>
+                                <option value="2000">2000</option>
+                                <option value="1999">1999</option>
+                                <option value="1998">1998</option>
+                                <option value="1997">1997</option>
+                                <option value="1996">1996</option>
+                                <option value="1995">1995</option>
+                                <option value="1994">1994</option>
+                                <option value="1993">1993</option>
+                                <option value="1992">1992</option>
+                                <option value="1991">1991</option>
+                                <option value="1990">1990</option>
+                                <option value="old">Мноо сте дърт за СиликонУни</option>
+                            </select>
+                        </div>
                         <div id="gender">
                             <input type="radio" name="sex" value="female" id="female"><label for="female">Жена</label>
                             <input type="radio" name="sex" value="male" id="male"><label for="male">Мъж</label>
