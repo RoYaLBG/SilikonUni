@@ -17,7 +17,7 @@
     <body>
         <div id="wrapper">
             <header>
-                <a href="<?= APPLICATION_HOST . DIRECTORY_SEPARATOR . 'index.php';?>">
+                <a href="<?= APPLICATION_HOST . 'index.php';?>">
                     <img src="<?= APPLICATION_HOST . View::FOLDER_IMAGES . 'SilikonUniLogo.png'; ?>" alt="logo" />
                     <img src="shtrakane_s_prasti_await.png" onmouseover="this.src='shtrakane_s_prasti_init.png'"
                          onmouseout="this.src='shtrakane_s_prasti_await.pngg'" />
