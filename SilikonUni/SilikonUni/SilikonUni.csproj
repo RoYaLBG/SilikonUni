@@ -57,9 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="aboutus.html" />
-    <Content Include="applying.html" />
-    <Content Include="contacts.html" />
+    <Content Include="aboutus.php" />
+    <Content Include="app.php" />
+    <Content Include="applying.php" />
+    <Content Include="config.php" />
+    <Content Include="contacts.php" />
+    <Content Include="core\Partial.php" />
+    <Content Include="core\View.php" />
     <Content Include="images\azis.gif" />
     <Content Include="images\azis2.gif" />
     <Content Include="images\azisBack.jpg" />
@@ -79,16 +83,18 @@
     <Content Include="images\tits.gif" />
     <Content Include="images\vlado1.jpg" />
     <Content Include="images\vlado2.jpg" />
-    <Content Include="index.html" />
+    <Content Include="index.php" />
     <Content Include="media\Doko-Doko.mp3" />
-    <Content Include="news.html" />
-    <Content Include="partners.html" />
-    <Content Include="styles\news.css" />
+    <Content Include="news.php" />
+    <Content Include="partners.php" />
+    <Content Include="redirect.php" />
     <Content Include="styles\styles.css">
       <DependentUpon>styles.scss</DependentUpon>
     </Content>
-    <Content Include="trainers.html" />
-    <Content Include="trainings.html" />
+    <Content Include="templates\partials\footer.php" />
+    <Content Include="templates\partials\header.php" />
+    <Content Include="trainers.php" />
+    <Content Include="trainings.php" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -126,8 +132,7 @@
           <IISAppRootUrl>http://localhost:59270/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl>http://localhost/Teamwork-02/SilikonUni/SilikonUni/</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

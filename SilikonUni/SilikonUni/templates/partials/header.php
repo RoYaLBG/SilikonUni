@@ -19,8 +19,6 @@
             <header>
                 <a href="<?= APPLICATION_HOST . DIRECTORY_SEPARATOR . 'index.php';?>">
                     <img src="<?= APPLICATION_HOST . View::FOLDER_IMAGES . 'SilikonUniLogo.png'; ?>" alt="logo" />
-                    <img src="shtrakane_s_prasti_await.png" onmouseover="this.src='shtrakane_s_prasti_init.png'"
-                         onmouseout="this.src='shtrakane_s_prasti_await.pngg'" />
                 </a>
                 <audio controls autoplay>
                     <source src="/media/Doko-Doko.mp3" type="audio/mpeg">
