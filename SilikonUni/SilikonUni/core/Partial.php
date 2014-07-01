@@ -39,10 +39,6 @@ class Partial {
         $this->_styles[] = "<style>\n\t".$style."\n</style>";
     }
     
-    public function setStylesUrl($url) {
-        $this->getView()->setCss('<link href="'.$url.'" rel="stylesheet" />');
-    }
-    
     public function getStyles() {
         return $this->_styles;
     }
