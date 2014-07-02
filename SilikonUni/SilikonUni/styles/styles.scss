@@ -278,7 +278,6 @@ body {
 #wrapper section {
     width: 100%;
     height: 100%;
-    /*border: 1px solid red;*/
     font-size: 1.2rem;
     padding: 1.5rem 1.5rem;
     display: flex;
@@ -288,7 +287,7 @@ body {
 
     #map_canvas {
         width: 50%;
-        height: 300px;
+        height: 20rem;
     }
 
     article {
@@ -373,8 +372,8 @@ body {
                     width: 100%;
                     height: 2.5rem;
                     margin-bottom: 0.5rem;
-                    padding: 0.5rem rem;
-                    font-size: 1rem;
+                    padding: 0.5rem 0.2rem;
+                    font-size: 0.8rem;
                     border: 1px solid $borders;
                     border-radius: 0.5rem;
                 }
@@ -386,14 +385,15 @@ body {
                 label {
                     margin-right: 1.3rem;
                     vertical-align: bottom;
+                    margin-bottom: 1rem;
                 }
 
                 textarea {
                     width: 100%;
                     height: 10rem;
                     margin-bottom: 0.5rem;
-                    padding: 0.5rem 1rem;
-                    font-size: 1rem;
+                    padding: 0.5rem 0.2rem;
+                    font-size: 0.8rem;
                     font-family: Tahoma;
                     border: 1px solid $borders;
                     border-radius: 0.5rem;
@@ -402,7 +402,7 @@ body {
                 input[type=submit] {
                     height: 5rem;
                     width: 100%;
-                    font-size: 2rem;
+                    font-size: 1.1rem;
                     margin-top: 5rem;
                     border: 1px solid $borders;
                     border-radius: 0.5rem;
@@ -425,14 +425,13 @@ body {
             display: flex;
             -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-            justify-content: flex-start;
-
-            div#map_canvas {
+            justify-content: space-between;
+            /*> div {
                 width: 50%;
+                height:300px;
                 margin-right: 5%;
-            }
-
-            address {
+            }*/
+            > address {
                 width: 45%;
 
                 p {
@@ -488,7 +487,6 @@ body {
 
     &.indexSection {
         height: 100%;
-        /*border: 1px solid red;*/
         font-size: 1.2rem;
         padding: 0;
 
@@ -645,71 +643,105 @@ body {
 @media all and (max-width:1024px) { /*960-1024*/
     body #wrapper section {
         width: 100%;
-    }
-}
 
-@media all and (max-width:960px) { /*640-960*/
-    body #wrapper {
-
-        section.threeColumnsSection article {
+        article#chalga div img, article#chalga div p {
             width: 100%;
         }
 
-        header {
-            display: flex;
-            -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-            justify-content: space-around;
+        article#travestite div img, article#travestite div p {
+            width: 100%;
+        }
 
-            nav {
+        article#greek div img, article#greek div p {
+            width: 100%;
+        }
+    }
+
+    @media all and (max-width:960px) { /*640-960*/
+        body #wrapper {
+
+            section.threeColumnsSection article {
                 width: 100%;
-                justify-content: center;
+            }
+
+            header {
+                display: flex;
+                -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                justify-content: space-around;
+
+                nav {
+                    width: 100%;
+                    justify-content: center;
+                }
+            }
+
+            section.oneColumnSection {
+                article {
+                    form fieldset:nth-child(2), form fieldset:first-child {
+                        width: 100%;
+                    }
+
+                    div {
+                        >address#address {
+                            width:100%;
+                        }
+                    }
+                }
+            }
+
+            section {
+                #map_canvas{
+                    width:100%;
+                }
             }
         }
     }
-}
 
-@media all and (max-width:640px) { /*480-640*/
-    body #wrapper {
-        footer section {
-            width: 100%;
-        }
 
-        header nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display:block;
+    @media all and (max-width:640px) { /*480-640*/
+        body #wrapper {
+            footer section {
+                width: 100%;
+            }
 
-            li {
-                margin: 0;
-                padding: 0;
-                display:block;
+            header nav ul#outerUl {
+                display: flex;
+                -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+                justify-content: center;
 
-                a {
-                    text-decoration: none;
-                }
-
-                > a {
-                    color: $text;
-                }
-
-                ul a {
-                    font-size: 0.9rem;
-                    color: $text-hover;
-                }
-
-                &:hover > a {
-                    text-decoration: none;
-                    @include linear-gradient(#f6e68e, #fcd740, #feed77, #d27502, #E27E02 );
-                    border-radius: 0.3rem;
-                    color: $text-hover;
-                }
-
-                ul.sub-nav-list {                   
+                > li {
+                    width: 100%;
+                    height: 100%;
                     display: flex;
-                    -ms-flex-flow: column;
-                    flex-flow: column;
+                    -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+                    justify-content: center;
+
+                    > a {
+                        width: 100%;
+                        margin-left: 0;
+                        text-align: center;
+                    }
+
+                    ul#innerUl {
+                        /*display: flex;
+                    -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+                    justify-content: center;*/
+                        /*position: static;*/
+                        > li {
+                            display: flex;
+                            -ms-flex-flow: row wrap;
+                            flex-flow: row wrap;
+                            justify-content: center;
+
+                            a {
+                                width: 100%;
+                            }
+                        }
+                    }
                 }
             }
         }

@@ -39,8 +39,11 @@
                 <p>* приемат се само снимки по бански (може и без)!!!</p>
 
                 <div>
-                    <input type="radio" name="sex" value="have-sponsor" id="yes" /><label for="yes">Имам си спонсор</label><br />
-                    <input type="radio" name="sex" value="no-sponsor" id="no"><label for="no">Нямам спонсор, бих желал/а Silikon University да ми помогнИ</label>
+                    <input type="radio" name="sex" value="have-sponsor" id="yes" /><label for="yes">Имам си спонсор</label>
+
+                </div>
+                <div>
+                    <input type="radio" name="sex" value="no-sponsor" id="no"><label for="no">Искам Silikon University за спонсор</label>
                 </div>
                 <br />
                 <label for="personal" class="label">Друга важна информация</label>

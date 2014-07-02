@@ -21,7 +21,7 @@
         </header>
         <div>
             <div id="map_canvas"></div>
-            <address>
+            <address id="address">
                 <p>гр. Димитровград</p>
                 <p>п.к.6400 бул."ЧАЛГА СТРИЙТ"16</p>
                 <p>e-mail: chalga.stars@silikonuni.bg</p>
