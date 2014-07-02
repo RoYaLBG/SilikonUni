@@ -13,22 +13,22 @@
         google.maps.event.addDomListener(window, 'load', initialize);        
     ");
 ?>
-<?php $view->partial()->setStyles("
-    #map_canvas {
-            width: 50%;
-            height: 300px;
-        }
-    ");
-?>
 <?php $view->partial()->header(); ?>
-        <section>
-            <div id="map_canvas"></div> 
+<section class="oneColumnSection">
+    <article>
+        <header>
+            <h2>Свържене се с нас!</h2>
+        </header>
+        <div>
+            <div id="map_canvas"></div>
             <address>
-                <p>адрес: Димитровград,</p>
-                <p>п.к.6400 бул."ЧАЛГА СТРИЙТ" №16</p>
-                <p>e-mail: gb.renyap@eciffo  </p>
-                <p>тел. 0391 60311 тел. </p>
-                <p>  0391 60310 факс: 0391 60330 </p>
+                <p>гр. Димитровград</p>
+                <p>п.к.6400 бул."ЧАЛГА СТРИЙТ"16</p>
+                <p>e-mail: chalga.stars@silikonuni.bg</p>
+                <p>тел: 06969 696969</p>
+                <p>факс: 06969 696969</p>
             </address>
-        </section>
+        </div>
+    </article>
+</section>
 <?php $view->partial()->footer(); ?>

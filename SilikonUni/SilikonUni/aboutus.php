@@ -1,23 +1,40 @@
 <?php require_once 'app.php'; /* @var $view View */ ?>﻿
 <?php $view->partial()->header(); ?>
-		<section class="rowsSection">
-			<article>
-				<header>
-                    <h2>За силикон звездите</h2>
-				</header>
-				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut vestibulum elit. Mauris leo urna, ultricies eu mollis lacinia, tincidunt ac magna. Sed aliquam rutrum turpis, non pellentesque turpis imperdiet id. Fusce sagittis faucibus magna, non lobortis orci rhoncus non. Integer sed neque ante. Nulla vel aliquam est. Cras sed semper augue, quis mattis justo. Sed ut arcu ac orci mollis consectetur vel at elit. Duis ac pharetra nulla. Nam nibh tellus, eleifend eget nulla sit amet, interdum vehicula nulla. Nam augue nunc, tempus non blandit sit amet, rutrum ut purus. Donec metus urna, sodales in urna sed, placerat mattis elit. Praesent massa sapien, rhoncus sed faucibus at, commodo non purus. In eget ligula a nisl facilisis rutrum quis eu dolor. Morbi ultricies accumsan libero nec dictum. Integer scelerisque mi vitae tincidunt fringilla.</div>
-			</article>
-			<article>
-				<header>
-                    <h2>На кого се... вее (продуцентите)</h2>
-				</header>
-				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut vestibulum elit. Mauris leo urna, ultricies eu mollis lacinia, tincidunt ac magna. Sed aliquam rutrum turpis, non pellentesque turpis imperdiet id. Fusce sagittis faucibus magna, non lobortis orci rhoncus non. Integer sed neque ante. Nulla vel aliquam est. Cras sed semper augue, quis mattis justo. Sed ut arcu ac orci mollis consectetur vel at elit. Duis ac pharetra nulla. Nam nibh tellus, eleifend eget nulla sit amet, interdum vehicula nulla. Nam augue nunc, tempus non blandit sit amet, rutrum ut purus. Donec metus urna, sodales in urna sed, placerat mattis elit. Praesent massa sapien, rhoncus sed faucibus at, commodo non purus. In eget ligula a nisl facilisis rutrum quis eu dolor. Morbi ultricies accumsan libero nec dictum. Integer scelerisque mi vitae tincidunt fringilla.</div>
-			</article>
-			<article>
-				<header>
-                    <h2>За Коко Динев</h2>
-				</header>
-				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut vestibulum elit. Mauris leo urna, ultricies eu mollis lacinia, tincidunt ac magna. Sed aliquam rutrum turpis, non pellentesque turpis imperdiet id. Fusce sagittis faucibus magna, non lobortis orci rhoncus non. Integer sed neque ante. Nulla vel aliquam est. Cras sed semper augue, quis mattis justo. Sed ut arcu ac orci mollis consectetur vel at elit. Duis ac pharetra nulla. Nam nibh tellus, eleifend eget nulla sit amet, interdum vehicula nulla. Nam augue nunc, tempus non blandit sit amet, rutrum ut purus. Donec metus urna, sodales in urna sed, placerat mattis elit. Praesent massa sapien, rhoncus sed faucibus at, commodo non purus. In eget ligula a nisl facilisis rutrum quis eu dolor. Morbi ultricies accumsan libero nec dictum. Integer scelerisque mi vitae tincidunt fringilla.</div>
-			</article>
-		</section>
+<section class="rowsSection">
+    <article>
+        <header>
+            <h2>За силикон звездите</h2>
+        </header>
+        <div>
+            <p>Станете СИЛИКОНКА. Не се колебайте, колкото и да е размера на гърдите Ви - МАЛКО Е.</p>
+            <p>
+                В момента в който уголемите бюста си
+                пред вас се разкриват неограничените възможности на това да си Силикон Звезда. Ще ви научим как точно да работите на
+                МИКРОФОН та дори може да ви научим и как да пеете една две песни на него. Няма да се отървете от мераклии да им попеете -
+                футболисти, колеги, депутати и Коко Динев. Ще работите на ТВЪРДО почасово заплащане, основно вечер - в бардаци, кръчми, 
+                хоремази, частни квартири и други. От вас се изисква единствено минимален умствен багаж и желание да се 
+                събличате.
+            </p>
+
+        </div>
+    </article>
+    <article>
+        <header>
+            <h2>На кого се... вее (продуцентите)</h2>
+        </header>
+        <div>Ролята на продуцентите е от жизнено обществено значение. Те се грижат за благото на обществото, като предоставят редица
+            необходими услуги чрез своите ПЕВАЧКИ, сред които дори и пеене. Единствената цел на продуцента е да допринесе за 
+            благо на страната. Сред основнте изисквания за успешен продуцент е да може умело да манипулира кухи лейки,
+            ако те нямат възможност той трябва да инвестира в ИНОВАТИВНИ СИЛИКОНОЛОГИИ, да гъзарее и да може да говори свързано на
+            пет големи ракии.</div>
+    </article>
+    <article>
+        <header>
+            <h2>За Коко Динев</h2>
+        </header>
+        <div>Известен като най-големия ценител и мецанат в поп фолк средите. Собственоръчно се грижи за благоденствието на редица
+                     невинни девойки и изгряващи звезди. Безвъзмездно им предоставя възможоност да ги забремени, една изключителна
+                     възможност за тяхното професионално и личностно развитие. На всички бъдещи звезди ще кажем, той е вашият път към успеха!</div>
+    </article>
+</section>
 <?php $view->partial()->footer(); ?>

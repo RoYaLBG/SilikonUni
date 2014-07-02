@@ -64,6 +64,7 @@
     <Content Include="contacts.php" />
     <Content Include="core\Partial.php" />
     <Content Include="core\View.php" />
+    <Content Include="images\ajde.jpg" />
     <Content Include="images\azis.gif" />
     <Content Include="images\azis2.gif" />
     <Content Include="images\azisBack.jpg" />
@@ -73,9 +74,15 @@
     <Content Include="images\chalga03.jpg" />
     <Content Include="images\chalga04.jpg" />
     <Content Include="images\chalga05.jpg" />
+    <Content Include="images\chalgaMix.jpg" />
+    <Content Include="images\chalgaPrimadona.jpg" />
+    <Content Include="images\DiapazonRecord_logo.jpg" />
+    <Content Include="images\greekSongs.jpg" />
     <Content Include="images\nakov.jpg" />
     <Content Include="images\paynerBack.jpg" />
     <Content Include="images\paynerFront.jpg" />
+    <Content Include="images\pioneer.gif" />
+    <Content Include="images\sashka.jpg" />
     <Content Include="images\sashkaBack.jpg" />
     <Content Include="images\sashkaFront.jpg" />
     <Content Include="images\SilikonUniLogo.png" />
@@ -90,6 +97,9 @@
     <Content Include="redirect.php" />
     <Content Include="styles\styles.css">
       <DependentUpon>styles.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
     </Content>
     <Content Include="templates\partials\footer.php" />
     <Content Include="templates\partials\header.php" />
