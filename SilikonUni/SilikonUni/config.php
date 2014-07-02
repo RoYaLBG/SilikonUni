@@ -5,8 +5,8 @@ $config['ivan'] = array(
 );
 
 $config['yana'] = array(
-    'root' => 'C:/wamp/www/Teamwork-02/SilikonUni/SilikonUni/',
-	'host' => 'http://localhost/Teamwork-02/SilikonUni/SilikonUni/'
+    'root' => $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR,
+    'host' => 'http://silikonuni.slavcheva.net/'
 );
 
 $config['ivo'] = array(
