@@ -66,6 +66,10 @@ $text: #fcd740;
 $borders: #ed78ff;
 
 /*MAIN*/
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: Tahoma;
     font-size: 1rem;
@@ -94,6 +98,10 @@ body {
             flex-flow: row wrap;
             justify-content: space-between;
 
+            audio {
+                display: none;
+            }
+
             img {
                 order: 1;
                 height: 100px;
@@ -119,9 +127,13 @@ body {
 
                 ul {
                     list-style-type: none;
+                    display: flex;
+                    -ms-flex-flow: row wrap;
+                    flex-flow: row wrap;
+                    justify-content: flex-end;
 
                     li {
-                        display: inline-block;
+                        /*display: inline-block;*/
                         margin-left: 1.3rem;
 
                         a {
@@ -151,13 +163,12 @@ body {
                         }
 
                         ul li {
-                            float: none;
+                            /*float: none;*/
                             margin: 0;
                             padding-top: 0.5rem;
                             padding-bottom: 0.5rem;
                             border-bottom: 1px solid $text-hover;
-                            display: block;
-
+                            /*display: block;*/
                             &:last-child {
                                 border-bottom: none;
                             }
@@ -365,11 +376,11 @@ body {
                     padding: 0.5rem rem;
                     font-size: 1rem;
                     border: 1px solid $borders;
-                    border-radius:0.5rem;
+                    border-radius: 0.5rem;
                 }
 
                 &:last-child select {
-                    width:33%;
+                    width: 33%;
                 }
 
                 label {
@@ -383,9 +394,9 @@ body {
                     margin-bottom: 0.5rem;
                     padding: 0.5rem 1rem;
                     font-size: 1rem;
-                    font-family:Tahoma;
+                    font-family: Tahoma;
                     border: 1px solid $borders;
-                    border-radius:0.5rem;
+                    border-radius: 0.5rem;
                 }
 
                 input[type=submit] {
@@ -394,16 +405,16 @@ body {
                     font-size: 2rem;
                     margin-top: 5rem;
                     border: 1px solid $borders;
-                    border-radius:0.5rem;
+                    border-radius: 0.5rem;
                 }
 
-                input[type=button], input[type=submit] {                  
+                input[type=button], input[type=submit] {
                     color: $text;
                     @include linear-gradient(#E58EF5, #D73FFC, #ed78ff, #7402D1, #7f02e6 );
 
                     &:hover {
-                        cursor:pointer;
-                        color:$text-hover;
+                        cursor: pointer;
+                        color: $text-hover;
                         @include linear-gradient(#f6e68e, #fcd740, #feed77, #d27502, #E27E02 );
                     }
                 }
@@ -542,8 +553,12 @@ body {
 
 /*ASIDES*/
 /*NEWS SECTION FLIPPER IMAGES*/
+.news1, .news2, .news3 {
+    width: 100%;
+}
+
 .panel {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
     margin: auto;
     position: relative;
@@ -622,4 +637,81 @@ body {
     -ms-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     transform: rotateX(0deg);
+}
+
+
+/*Responsive part*/
+
+@media all and (max-width:1024px) { /*960-1024*/
+    body #wrapper section {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:960px) { /*640-960*/
+    body #wrapper {
+
+        section.threeColumnsSection article {
+            width: 100%;
+        }
+
+        header {
+            display: flex;
+            -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+            justify-content: space-around;
+
+            nav {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media all and (max-width:640px) { /*480-640*/
+    body #wrapper {
+        footer section {
+            width: 100%;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display:block;
+
+            li {
+                margin: 0;
+                padding: 0;
+                display:block;
+
+                a {
+                    text-decoration: none;
+                }
+
+                > a {
+                    color: $text;
+                }
+
+                ul a {
+                    font-size: 0.9rem;
+                    color: $text-hover;
+                }
+
+                &:hover > a {
+                    text-decoration: none;
+                    @include linear-gradient(#f6e68e, #fcd740, #feed77, #d27502, #E27E02 );
+                    border-radius: 0.3rem;
+                    color: $text-hover;
+                }
+
+                ul.sub-nav-list {                   
+                    display: flex;
+                    -ms-flex-flow: column;
+                    flex-flow: column;
+                }
+            }
+        }
+    }
 }

@@ -6,7 +6,7 @@
             <h1>Нашата кауза е да направим България Силиконовата долина на Европа!!!
             </h1>
             <div>
-                <img src="images/tits.gif" alt="">
+                <img src="images/tits.gif" alt="silikonTits">
             </div>
             <h2 class="blinking"><a href="https://softuni.bg/about" target="_blank">SILIKON UNIVERSITY</a> - вашият път към успеха!</h2>
 

@@ -1,7 +1,6 @@
 <?php require_once 'app.php'; /* @var $view View */ ?>﻿
 <?php $view->partial()->header(); ?>
         <section class="threeColumnsSection">
-            <!--<h1>Списък на фирмите</h1>-->
             <article>
                 <header><h2>Прашка Васева - The great comeback</h2></header>
                 <div class="news1">
