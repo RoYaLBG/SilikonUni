@@ -29,7 +29,7 @@ class View {
 		),
 		array(
 			self::KEY_MAIN => array(
-				self::KEY_URL => '#',
+				self::KEY_URL => 'aboutus.php',
 				self::KEY_TITLE => 'About the university',
 				self::KEY_HEADER => 'За университета',
 				self::KEY_SUB => array(

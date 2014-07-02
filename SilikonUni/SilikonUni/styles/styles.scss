@@ -683,16 +683,32 @@ body {
                     }
 
                     div {
-                        >address#address {
-                            width:100%;
+                        > address#address {
+                            width: 100%;
                         }
                     }
                 }
             }
 
             section {
-                #map_canvas{
-                    width:100%;
+                #map_canvas {
+                    width: 100%;
+                }
+
+                article#nakov div img, article#nakov div p {
+                    width: 100%;
+                }
+
+                article#tedi div img, article#tedi div p {
+                    width: 100%;
+                }
+
+                article#vlado1 div img, article#vlado1 div p {
+                    width: 100%;
+                }
+
+                article#vlado2 div img, article#vlado2 div p {
+                    width: 100%;
                 }
             }
         }
@@ -725,13 +741,13 @@ body {
                         text-align: center;
                     }
 
-                    ul#innerUl {
+                    &:hover ul#innerUl {
                         /*display: flex;
                     -ms-flex-flow: row wrap;
                     flex-flow: row wrap;
                     justify-content: center;*/
                         /*position: static;*/
-                        > li {
+                        /*> li {
                             display: flex;
                             -ms-flex-flow: row wrap;
                             flex-flow: row wrap;
@@ -739,11 +755,12 @@ body {
 
                             a {
                                 width: 100%;
-                            }
-                        }
+                            }*/
+                        display: none;
                     }
                 }
             }
         }
     }
 }
+

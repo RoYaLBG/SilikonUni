@@ -1,55 +1,72 @@
 <?php require_once 'app.php'; /* @var $view View */ ?>﻿
 <?php $view->partial()->header(); ?>
-        <section class="oneColumnSection">
-            <article>
-                <header><h1>Обучения</h1></header>
-                <p>
-                    Преподавателският състав е изключително внимателно подбран. Той се състои от практици, 
+<section class="oneColumnSection">
+    <article>
+        <header>
+            <h1>Обучения</h1>
+        </header>
+        <p>
+            Преподавателският състав е изключително внимателно подбран. Той се състои от практици, 
                     хора от индустрията, които са с изявени постижения и добри ПЕВЧЕВСКИ и КЮЧЕК умения. 
-                </p>
-            </article>
-        </section>
-        <section class="rowsSection">
-            <article class="trainer">
-                <header><h2>СвеЗис</h2></header>
-                <img src="images/nakov.jpg" title="Nakov logo" alt="logo" />
-                <p>
-                    СвеЗис има над 15-годишен опит като чалга изпълнител, кръчмарски певец,
+        </p>
+    </article>
+</section>
+<section class="oneColumnSection">
+    <article id="nakov" class="articlePic">
+        <header>
+            <h2>СвеЗис</h2>
+        </header>
+        <div>
+            <img src="images/Svezis.png" title="Nakov logo" alt="logo" />
+            <p>
+                СвеЗис има над 15-годишен опит като чалга изпълнител, кръчмарски певец,
                     сватбар, певец и свирач с богат опит в ХОРЕМАГОВЕ и Кръчми, Сватби на поляни и закрито,
                     ресторанти, и Снек Барове тип Дискотека.
                     Той е автор на над 7 песни сред които СиСи, ДжъСее и др. Започва своята кариера в не безизвестната Сладкарница Малинка.
                     Той също така има опит като акордеонист и умее да свири на тарамбука.
-                </p>
-            </article>
-            <article class="trainer">
-                <header><h2>Teди Сораро</h2></header>
-                <img src="images/tedi.jpg" title="Tedi logo" alt="logo" />
-                <p>
-                   Има повече от известно време професионален опит в надсвирването с гадулка. 
+            </p>
+        </div>
+    </article>
+    <article id="tedi" class="articlePic">
+        <header>
+            <h2>Teди Сораро</h2>
+        </header>
+        <div>
+            <img src="images/TediStoraro.png" title="Tedi logo" alt="logo" />
+            <p>
+                Има повече от известно време професионален опит в надсвирването с гадулка. 
                    Основно се занимава с разработка и развитие на фолклорни таланти от 18 до 20 г. но само от женски тип.
                    Като част от преподавателския екип на СвеЗис, участва като преподавател в няколко курса по надпиване в
                    СУ "Харманли". 
-                </p>
-            </article>
-            <article class="trainer">
-                <header><h2>Владес</h2></header>
-                <img src="images/vlado1.jpg" title="Vlado logo" alt="logo" />
-                <p>
-                    Завършил академията на Чалгалик с отличие през сезон 2012-2013 г.
+            </p>
+        </div>
+    </article>
+    <article id="vlado1" class="articlePic">
+        <header>
+            <h2>Владес</h2>
+        </header>
+        <div>
+            <img src="images/Vlado1.png" title="Vlado logo" alt="logo" />
+            <p>
+                Завършил академията на Чалгалик с отличие през сезон 2012-2013 г.
                     В момента работи като junior КЮЧЕКЧИЯ в При Сандукана. Работата му е изцяло свързана с Въртене на Гибеци и Кючеци 
                     Това, което му харесва в работата, е, че всеки ден научава нещо ново.
-                </p>
-            </article>
-            <article class="trainer">
-                <header><h2>Владес Ъгейн</h2></header>
-                <div>
-                    <img src="images/vlado2.jpg" title="Vlado logo" alt="logo" />
-                </div>
-                <p>
-                    Завършил магистърска степен в елитното школо в Широка Лъка, в Западноизточната част на Южна България, 
+            </p>
+        </div>
+    </article>
+    <article id="vlado2" class="articlePic">
+        <header>
+            <h2>Владес Ъгейн</h2>
+        </header>
+        <div>
+            <img src="images/Vlado2.png" title="Vlado logo" alt="logo" />
+
+            <p>
+                Завършил магистърска степен в елитното школо в Широка Лъка, в Западноизточната част на Южна България, 
                     специалност "Кръчмарски бой, Певчески умения на 7 големи ракии и Сърбистика". 
                     В момента работи във Хоремага на село Долно Изнанагорнище. 
-                </p>
-            </article>
-        </section>
+            </p>
+        </div>
+    </article>
+</section>
 <?php $view->partial()->footer(); ?>

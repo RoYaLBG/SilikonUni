@@ -541,6 +541,14 @@ body {
     body #wrapper section.oneColumnSection article div > address#address {
       width: 100%; }
     body #wrapper section #map_canvas {
+      width: 100%; }
+    body #wrapper section article#nakov div img, body #wrapper section article#nakov div p {
+      width: 100%; }
+    body #wrapper section article#tedi div img, body #wrapper section article#tedi div p {
+      width: 100%; }
+    body #wrapper section article#vlado1 div img, body #wrapper section article#vlado1 div p {
+      width: 100%; }
+    body #wrapper section article#vlado2 div img, body #wrapper section article#vlado2 div p {
       width: 100%; } }
   @media all and (max-width: 640px) {
     /*480-640*/
@@ -562,18 +570,21 @@ body {
           width: 100%;
           margin-left: 0;
           text-align: center; }
-        body #wrapper header nav ul#outerUl > li ul#innerUl {
+        body #wrapper header nav ul#outerUl > li:hover ul#innerUl {
           /*display: flex;
                     -ms-flex-flow: row wrap;
                     flex-flow: row wrap;
                     justify-content: center;*/
-          /*position: static;*/ }
-          body #wrapper header nav ul#outerUl > li ul#innerUl > li {
-            display: flex;
-            -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-            justify-content: center; }
-            body #wrapper header nav ul#outerUl > li ul#innerUl > li a {
-              width: 100%; } } }
+          /*position: static;*/
+          /*> li {
+                            display: flex;
+                            -ms-flex-flow: row wrap;
+                            flex-flow: row wrap;
+                            justify-content: center;
+
+                            a {
+                                width: 100%;
+                            }*/
+          display: none; } } }
 
 /*# sourceMappingURL=styles.css.map */
