@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Content Include="aboutus.html" />
     <Content Include="aboutus.php" />
     <Content Include="app.php" />
@@ -65,23 +66,35 @@
     <Content Include="config.php" />
     <Content Include="contacts.html" />
     <Content Include="contacts.php" />
+=======
+    <Content Include="aboutus.php" />
+    <Content Include="app.php" />
+    <Content Include="applying.php" />
+    <Content Include="config.php" />
+    <Content Include="contacts.php" />
+    <Content Include="core\Partial.php" />
+    <Content Include="core\View.php" />
+    <Content Include="images\ajde.jpg" />
+>>>>>>> 400364921ba80ff0c527f8ba577fe9d2c7965f47
     <Content Include="images\azis.gif" />
     <Content Include="images\azis2.gif" />
     <Content Include="images\azisBack.jpg" />
     <Content Include="images\azisFront.jpg" />
-    <Content Include="images\chalga01.jpg" />
-    <Content Include="images\chalga02.jpg" />
-    <Content Include="images\chalga03.jpg" />
-    <Content Include="images\chalga04.jpg" />
-    <Content Include="images\chalga05.jpg" />
+    <Content Include="images\chalgaMix.jpg" />
+    <Content Include="images\chalgaPrimadona.jpg" />
+    <Content Include="images\DiapazonRecord_logo.jpg" />
+    <Content Include="images\greekSongs.jpg" />
     <Content Include="images\nakov.jpg" />
     <Content Include="images\paynerBack.jpg" />
     <Content Include="images\paynerFront.jpg" />
-    <Content Include="images\sashkaBack.jpg" />
+    <Content Include="images\pioneer.gif" />
     <Content Include="images\sashkaFront.jpg" />
+    <Content Include="images\sashkaBack.jpg" />
     <Content Include="images\SilikonUniLogo.png" />
-    <Content Include="images\tedi.jpg" />
+    <Content Include="images\Svezis.png" />
+    <Content Include="images\TediStoraro.png" />
     <Content Include="images\tits.gif" />
+<<<<<<< HEAD
     <Content Include="images\vlado1.jpg" />
     <Content Include="images\vlado2.jpg" />
     <Content Include="index.html" />
@@ -99,6 +112,24 @@
     <Content Include="trainers.html" />
     <Content Include="trainers.php" />
     <Content Include="trainings.html" />
+=======
+    <Content Include="images\Vlado1.png" />
+    <Content Include="images\Vlado2.png" />
+    <Content Include="index.php" />
+    <Content Include="media\Doko-Doko.mp3" />
+    <Content Include="news.php" />
+    <Content Include="partners.php" />
+    <Content Include="redirect.php" />
+    <Content Include="styles\styles.css">
+      <DependentUpon>styles.scss</DependentUpon>
+    </Content>
+    <Content Include="styles\styles.min.css">
+      <DependentUpon>styles.css</DependentUpon>
+    </Content>
+    <Content Include="templates\partials\footer.php" />
+    <Content Include="templates\partials\header.php" />
+    <Content Include="trainers.php" />
+>>>>>>> 400364921ba80ff0c527f8ba577fe9d2c7965f47
     <Content Include="trainings.php" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -137,8 +168,7 @@
           <IISAppRootUrl>http://localhost:59270/</IISAppRootUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
-          <CustomServerUrl>
-          </CustomServerUrl>
+          <CustomServerUrl>http://localhost/Teamwork-02/SilikonUni/SilikonUni/</CustomServerUrl>
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>

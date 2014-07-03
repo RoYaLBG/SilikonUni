@@ -29,7 +29,7 @@ class View {
 		),
 		array(
 			self::KEY_MAIN => array(
-				self::KEY_URL => '#',
+				self::KEY_URL => 'aboutus.php',
 				self::KEY_TITLE => 'About the university',
 				self::KEY_HEADER => 'За университета',
 				self::KEY_SUB => array(
@@ -139,7 +139,7 @@ class View {
 						array(
 							self::KEY_URL => 'http://bg.wikipedia.org/wiki/%D0%9F%D0%B0%D0%B9%D0%BD%D0%B5%D1%80',
 							self::KEY_TITLE => 'Mitko Paynera',
-							self::KEY_HEADER => 'Митко Димитров - Пайнера',
+							self::KEY_HEADER => 'Митко Димитров',
 						),
 						array(
 							self::KEY_URL => 'http://www.plastichna-hirurgia.bg/',
@@ -212,6 +212,10 @@ class View {
 	public function getFooterPages() {
 		return $this->_footerPages;
 	}
+    
+    public function setCssUrl($url) {
+        $this->_css[] = $url;
+    }
 
 
 

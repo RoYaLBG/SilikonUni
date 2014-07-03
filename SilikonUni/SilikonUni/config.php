@@ -5,7 +5,8 @@ $config['ivan'] = array(
 );
 
 $config['yana'] = array(
-    'root' => ''
+    'root' => $_SERVER['DOCUMENT_ROOT'] . DIRECTORY_SEPARATOR,
+    'host' => 'http://silikonuni.slavcheva.net/'
 );
 
 $config['ivo'] = array(
