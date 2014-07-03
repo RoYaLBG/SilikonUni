@@ -58,8 +58,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.html" />
+    <Content Include="aboutus.php" />
+    <Content Include="app.php" />
     <Content Include="applying.html" />
+    <Content Include="applying.php" />
+    <Content Include="config.php" />
     <Content Include="contacts.html" />
+    <Content Include="contacts.php" />
     <Content Include="images\azis.gif" />
     <Content Include="images\azis2.gif" />
     <Content Include="images\azisBack.jpg" />
@@ -80,15 +85,21 @@
     <Content Include="images\vlado1.jpg" />
     <Content Include="images\vlado2.jpg" />
     <Content Include="index.html" />
+    <Content Include="index.php" />
     <Content Include="media\Doko-Doko.mp3" />
     <Content Include="news.html" />
+    <Content Include="news.php" />
     <Content Include="partners.html" />
+    <Content Include="partners.php" />
+    <Content Include="redirect.php" />
     <Content Include="styles\news.css" />
     <Content Include="styles\styles.css">
       <DependentUpon>styles.scss</DependentUpon>
     </Content>
     <Content Include="trainers.html" />
+    <Content Include="trainers.php" />
     <Content Include="trainings.html" />
+    <Content Include="trainings.php" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
